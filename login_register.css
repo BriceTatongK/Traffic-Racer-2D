@@ -1,0 +1,94 @@
+#registerBox {
+    background-color: silver;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    border-radius: 15px;
+    width: 580px;
+    height: 450px;
+    border-style: outset;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+#terms {
+    text-align: center;
+}
+
+
+body {
+    background-image: url("../image_folder/r.jpg");
+    margin: auto;
+}
+
+
+#loginBox {
+    background-color: silver;
+    border-radius: 20px;
+    width: 500px;
+    height: 300px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 200px;
+    text-align: center;
+    border-style: outset;
+    margin: auto;
+    margin-top: 150px;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+
+legend {
+    font-weight: bold;
+    margin: auto;
+}
+
+
+.butt:hover {
+    background-color: green;
+    opacity: 0.8;
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+}
+
+
+.butt {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: lightgreen;
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    font-weight: bold;
+    margin: 10px;
+    font-size: 15px;
+}
+
+
+.powder {
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-style: inset;
+    border-radius: 15px;
+    margin-top: 15px;
+    width: 300px;
+    height: 30px;
+}
+
+.powder:focus {
+    background-color: powderblue;
+}
+
+.powder:hover {
+    background-color: powderblue;
+}
+
+.powder:valid {
+    background-color: lightgreen;
+}

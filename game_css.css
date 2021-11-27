@@ -1,0 +1,374 @@
+/*######| POPUP |######*/
+/*#####################*/
+#mypopup{
+    display: none;
+    background-color: black;
+    opacity: 0.7;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+#content{
+    background-color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin: auto;
+    border: 2px solid grey;
+    border-style: outset;
+    width: 30%;
+    height: 50%;
+    border-radius: 10px;
+    margin-top: 10%;
+}
+
+#close{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    background-color: red;
+    border-radius: 5px;
+    float: right;
+    display: inline-block;
+    width: 30px;
+}
+
+#close:hover{
+    font-size: 23px;
+    background-color: darkred;
+    cursor: pointer;
+}
+
+#instructions{
+    text-align: center;
+    margin: auto;
+}
+
+
+
+
+/*#######| OTHER CARS IMAGES |##########*/
+.design1 {
+    background-image: url(../image_folder/rose.jpg);
+}
+
+.design2 {
+    background-image: url(../image_folder/yellow.jpg);
+}
+
+.design3 {
+    background-image: url(../image_folder/white.jpg);
+}
+
+.design4 {
+    background-image: url(../image_folder/orange.jpg);
+}
+
+.design5 {
+    background-image: url(../image_folder/rc.jpg);
+}
+
+
+
+.hide {
+    display: none;
+}
+
+
+body {
+    overflow: auto;
+}
+
+
+.cars {
+    background-size: cover;
+    height: 115px;
+    width: 55px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+
+#myCar {
+    background-image: url(../image_folder/police.jpg);
+    position: absolute;
+}
+
+
+.otherCar {
+    height: 110px;
+    width: 55px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    position: absolute;
+    background-size: cover;
+}
+
+
+.lines {
+    width: 10px;
+    height: 200px;
+    position: absolute;
+    background-color: antiquewhite;
+    margin-left: 350px;
+    margin-top: 0px;
+}
+
+
+#road {
+    border-left: 8px dashed whitesmoke;
+    border-right: 8px dashed whitesmoke;
+    width: 700px;
+    height: 745px;
+    margin-left: 50px;
+    margin-top: -20px;
+    background-image: url(../image_folder/road.jpg);
+    background-size: cover;
+}
+
+
+/*#######| RANKING TABLE |#######*/
+
+#first {
+    background-color: #FFD700; /*oro*/
+}
+
+
+#second {
+    background-color: #C0C0C0; /*argento*/
+}
+
+
+#third {
+    background-color: #cd7f32; /*bonzo*/
+}
+
+
+.medal {
+    border-radius: 100px;
+    height: 50px;
+}
+
+
+#list {
+    text-align: center;
+    background-color: palegreen;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+
+.cell {
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+
+th {
+    color: white;
+    background-color: black;
+}
+
+td {
+    text-shadow: 8px 6px 22px rgba(53, 16, 255, 1);
+    margin: 10px;
+    padding: 2px;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-weight: bold;
+}
+
+
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 8px 6px 22px rgba(53, 16, 255, 1);
+    background-color: black;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 30px;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+
+
+
+.area {
+    border: 1px solid silver;
+    background-color: palegreen;
+    float: left;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+
+#infoArea {
+    text-align: left;
+    width: 300px;
+    height: 600px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+#rankingArea {
+    width: 280px;
+    height: 600px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+#gameArea {
+    height: 701px;
+    width: 800px;
+    margin-top: -10px;
+    background-image: url(../image_folder/bk.jpg);
+    background-size: cover;
+}
+
+
+label {
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: black;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+
+.box {
+    text-align: center;
+    width: 70px;
+    height: 10px;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+
+
+button {
+    border-radius: 10px;
+    background-color: grey;
+    text-align: center;
+    padding: 4px;
+    width: 105px;
+    color: white;
+    margin: 10px;
+    position: relative;
+}
+
+
+button:hover {
+    background-color: green;
+    color: ghostwhite;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 110px;
+    font-weight: bold;
+}
+
+
+
+img {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    animation: myAnim 1s ease-in 0s 2 alternate-reverse both;
+}
+
+
+/*#############| ANIMATION  |###########*/
+.anim {
+    animation: Anim 2s ease-in 0s 2 alternate-reverse both;
+}
+
+.go {
+    animation: go 1s ease 0s 1 normal forwards;
+}
+
+.come {
+    animation: come 1s ease 0s 1 normal forwards;
+}
+
+
+@keyframes go {
+    0% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateX(250px);
+    }
+}
+
+
+@keyframes come {
+    0% {
+        opacity: 0;
+        transform: translateX(250px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+@keyframes Anim {
+
+    0%,
+    50%,
+    100% {
+        opacity: 1;
+    }
+
+    25%,
+    75% {
+        opacity: 0;
+    }
+}
+
+
+@keyframes myAnim {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+.anim {
+    animation: Anim 2s ease-in 0s 2 alternate-reverse both;
+}
+
+@keyframes Anim {
+
+    0%,
+    50%,
+    100% {
+        opacity: 1;
+    }
+
+    25%,
+    75% {
+        opacity: 0;
+    }
+}
